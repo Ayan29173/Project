@@ -1,0 +1,75 @@
+body {
+ background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  font-family: "Kumbh Sans";
+  font-size: 12px;
+}
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 50%;
+  background-color: white;
+  border-radius: 35px;
+}
+.wrapper_2 {
+  padding: 6%;
+  width: 80%;
+}
+.MyButtons {
+  border-bottom: 1px solid grey;
+  font-size: 12px !important;
+}
+.QuestionDiv {
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+p{
+  font-size: 14px;
+  color: grey;
+}
+.answer {
+  display: none;
+}
+button {
+  display: flex;
+  justify-content: space-between;
+  border: hidden;
+	background-color: white;
+  width: 100%;
+}
+.pictures {
+  position: relative;
+  width: 50%;
+}
+.FirstImg{
+   position: absolute;
+   left: -80px;
+   top: -120px;
+}
+.SecondImg{
+  position: absolute;
+  top: -120px;
+  left: -50px;
+}
+#Second{
+  width: 300px;
+}
+#Third{
+  width: 300px;
+}
+.attribution { 
+    margin-top: 100px; 
+    text-align: center;
+    font-size: 16px;
+}
+.attribution a {
+  text-decoration: none;
+  color: #731924;
+}
+
+
+ 
+
+ 
